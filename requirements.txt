@@ -1,0 +1,2 @@
+# Tkinter is part of Python standard library
+# No external libraries required
