@@ -211,3 +211,6 @@ if _name_ == "_main_":
     root = tk.Tk()
     app = EmployeeManagementSystem(root)
     root.mainloop()
+
+
+Added main.py - initial code for Employee Management System
