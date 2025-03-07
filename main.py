@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
 
-
 class EmployeeManagementSystem:
     def _init_(self, root):
         self.root = root
@@ -36,8 +35,10 @@ class EmployeeManagementSystem:
 
         entry_name = tk.Entry(frame, width=25, font=("Arial", 12))
         entry_name.grid(row=0, column=0, padx=5, pady=5)
+        
         spin_age = tk.Spinbox(frame, from_=18, to=100, font=("Arial", 12), width=5)
         spin_age.grid(row=0, column=1, padx=5, pady=5)
+        
         entry_department = tk.Entry(frame, width=25, font=("Arial", 12))
         entry_department.grid(row=0, column=2, padx=5, pady=5)
 
